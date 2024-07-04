@@ -67,11 +67,6 @@ variable "vpc_connector_name" {
   default     = "python-app-vpc-connect"
 }
 
-# variable "vpc_connector_subnet" {
-#   description = "The subnet to use for the VPC Connector"
-#   type        = string
-# }
-
 variable "github_token" {
   description = "GitHub token for Cloud Build"
   type        = string
