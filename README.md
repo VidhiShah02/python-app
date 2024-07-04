@@ -59,7 +59,7 @@ This guide helps you use Terraform to manage infrastructure on Google Cloud Plat
 
 - Apply Terraform commands to initialize and deploy configurations, ensuring all components are set up correctly.
 
-**How Terraform Modules are Reusable: \
+**How Terraform Modules are Reusable: 
 Flexibility**: Modify variables in `variables.tf` to perform CRUD operations on resources.
 
 - **Code Reuse**: Avoid rewriting code for creating new VPCs, subnets, or Cloud Run resources. Use existing modules and update configurations as needed.
