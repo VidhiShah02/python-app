@@ -1,3 +1,5 @@
+#if cloud run needs to be created as a individual resource. use below code-snippet
+
 # resource "google_cloud_run_service" "cloud-run-pyhton" {
 #   name       = var.cloud_run_service_name
 #   location   = var.region
