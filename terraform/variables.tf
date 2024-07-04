@@ -1,7 +1,7 @@
 variable "project_id" {
   description = "GCP project ID"
   type        = string
-  default     = "folkloric-drive-411517"
+  default     = "{PROJECT_ID}"
 }
 
 variable "region" {
@@ -13,7 +13,7 @@ variable "region" {
 variable "tf_service_account" {
   description = "Terraform Service Account"
   type        = string
-  default     = "terraform-sa-203@folkloric-drive-411517.iam.gserviceaccount.com"
+  default     = "{SA-NAME}"
 }
 
 variable "zone" {
@@ -76,7 +76,7 @@ variable "github_token" {
   description = "GitHub token for Cloud Build"
   type        = string
   sensitive   = true
-  default     = "ghu_SBMnCJXp8rPYSENBQX9Pq7yylkKhfH3kWDzX"
+  default     = "{TOKEN}"
 }
 
 variable "network_name" {
