@@ -7,5 +7,3 @@ module "vpc" {
   cloud_run_service_name = var.cloud_run_service_name
   bucket_name = var.bucket_name
 }
-
-
