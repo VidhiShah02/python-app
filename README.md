@@ -14,14 +14,14 @@ This guide helps you use Terraform to manage infrastructure on Google Cloud Plat
 
 - **version.tf**: Specifies the Terraform version to use.
 
-- **variables.tf**: Defines project-specific variables like project ID and region. \
+- **variables.tf**: Defines project-specific variables like project ID and region. 
 
 
 1. **Set Up Service Account**
 
 - Use Terraform to create a service account with required permissions.
 
-- Download its JSON key (`gcp-keys.json`) and store it in your project directory for authentication. \
+- Download its JSON key (`gcp-keys.json`) and store it in your project directory for authentication. 
 
 
 1. **Organize into Modules for Manageability**
@@ -110,7 +110,7 @@ For building a Docker image we required Dockerfile for our application. Create D
 
 Before you can push or pull images, we need to configure Docker to use the Google Cloud CLI to authenticate requests to Artifact Registry.
 
-1. Authenticate Docker with Artifact Registry  \
+1. Authenticate Docker with Artifact Registry  
 - To set up authentication to Docker repositories in the region us-central1
 
 ```
@@ -124,7 +124,7 @@ docker build -t hello-world:v1 .
 3.  Tag your Docker image
 
 ```
-docker tag hello-world:v1 \ us-central1-docker.pkg.dev/{Project_ID}/python-app/hello-world:v1
+docker tag hello-world:v1 us-central1-docker.pkg.dev/{Project_ID}/python-app/hello-world:v1
 ```
 4. Push the Docker image
 
@@ -136,7 +136,7 @@ docker push us-central1-docker.pkg.dev/{Project_ID}/python-app/hello-world:v1
 **7. Deploy Cloud Run Service**
 
 ![Enter image alt description](images/iHB_Image_3.png)
- \
+ 
 Use this URL to check the Hello world python app :[ https://python-app-run-i2hpx3cxeq-uc.a.run.app](https://python-app-run-i2hpx3cxeq-uc.a.run.app/)
 
 **8. Additional Setup**
