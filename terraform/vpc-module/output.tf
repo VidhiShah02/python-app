@@ -11,6 +11,7 @@ output "subnetworks" {
 output "subnetworks_cidr" {
   value = var.subnets["subnets_1"].cidr
 }
-# output "cloud_run_service_url" {
-#   value = google_cloud_run_service.cloud-run-python.status
-# }
+
+output "cloud_run_service_url" {
+   value = google_cloud_run_service.cloud-run-python.status
+ }
