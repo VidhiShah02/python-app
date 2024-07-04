@@ -17,8 +17,3 @@ resource "google_secret_manager_secret" "gcs_fuse_creds" {
     auto {}
   }
 }
-
-# resource "google_secret_manager_secret_version" "gcs_fuse_creds_version" {
-#   secret      = google_secret_manager_secret.gcs_fuse_creds.secret_id
-#   secret_data = filebase64("./gcp-keys.json")
-# }
