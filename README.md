@@ -65,7 +65,7 @@ Flexibility**: Modify variables in `variables.tf` to perform CRUD operations on 
 - **Code Reuse**: Avoid rewriting code for creating new VPCs, subnets, or Cloud Run resources. Use existing modules and update configurations as needed.
 
 
-**Setting Up CI/CD with Terraform**
+# Setting Up CI/CD with Terraform
 
 This guide walks you through setting up a Cloud Run service on Google Cloud Platform (GCP) using Terraform. The goal is to create a new GCP project, enable necessary services, build and deploy a "Hello World" Docker application, and configure supporting infrastructure.
 
