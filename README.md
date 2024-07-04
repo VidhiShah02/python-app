@@ -38,8 +38,8 @@ This guide helps you use Terraform to manage infrastructure on Google Cloud Plat
 
 - outputs.tf: Captures useful resource information.
 
-![a screenshot of the vpc networks page with an arrow pointing to the external vpc](Images/RgC-screenshot-vpc-networks-page-arrow-pointing.png)
-![Enter image alt description](Images/SUb_Image_3.png)
+![a screenshot of the vpc networks page with an arrow pointing to the external vpc](images/RgC-screenshot-vpc-networks-page-arrow-pointing.png)
+![Enter image alt description](images/SUb_Image_3.png)
 ![Enter image alt description](Images/FAg_Image_4.png)
 
 1. **Create Main Module**
@@ -48,14 +48,14 @@ This guide helps you use Terraform to manage infrastructure on Google Cloud Plat
 
 - Include the `vpc-module` to create VPCs and subnets.
 
-![Enter image alt description](Images/qNa_Image_5.png)
+![Enter image alt description](images/qNa_Image_5.png)
 
 
 1. **Enable Required APIs and Assign Roles**
 
-![Enter image alt description](Images/dCu_Image_6.png)
+![Enter image alt description](images/dCu_Image_6.png)
 
-![Enter image alt description](Images/05l_Image_7.png)
+![Enter image alt description](images/05l_Image_7.png)
 
 - Apply Terraform commands to initialize and deploy configurations, ensuring all components are set up correctly.
 
